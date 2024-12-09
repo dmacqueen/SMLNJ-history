@@ -74,7 +74,7 @@ William Aitken [..., Bell Labs (summer intern, 1992, Reppy); match compiler rewr
 ** Walid Taha [Bell Labs(summer intern  1998); lazy evaluation with Wadler, DBM]
   maroneal@gmail.com
 
-** Peter Weinberger [Bell Labs, Renaisance, Google; ?]
+** Peter Weinberger [Bell Labs, Renaisance, Google; first GC?]
   pjw@google.com
 
 ** Howard Trickey [Bell Labs, Google; ?]
@@ -82,7 +82,7 @@ William Aitken [..., Bell Labs (summer intern, 1992, Reppy); match compiler rewr
 
 Phil Wadler [..., Bell Labs, ..., Edinburgh; lazy evaluation]
 
-Tim Griffin [..., Bell Labs, ..., Cambridge;
+** Tim Griffin [..., Bell Labs, ..., Cambridge;
   with H. Trickey, weakest preconditions on switch database transactions]
 
 
@@ -160,9 +160,9 @@ George Necula [CMU, Bell Labs (Summer, 1994), ..., Berkeley; worked with Lal on 
   gcnecula@gmail.com
   https://people.eecs.berkeley.edu/~necula/
 
-Gene [Geena] Rollins [CMU, ?; Source Groups - precursor of CM]
+** Geena [Gene] Rollins [CMU, ?; Source Groups - precursor of CM]
   [now her, Geena Rollins, invited to connect on LinkedIn]
-  email? (Taditi?)
+  email? (contact via Taditi?)
 
 
 Chicago
