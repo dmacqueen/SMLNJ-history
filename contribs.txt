@@ -1,0 +1,1445 @@
+------------------------------------------------------------------------------------------ 
+Marianne Baudinet  2024.04.17, 5:51 AM
+<LinkedIn message>
+
+Hi Dave,
+
+Nice to hear from you. I hope you are doing well. Indeed, I had visiting research internship
+at Bell Labs in the summer of 1985 and we worked on tree pattern matching for ML. And yes,
+I was a PhD student at Stanford where I worked with Zohar Manna and got my degree in early
+1989 with a thesis on semantics and verification techniques for logic programming. I can't
+remember what I developed while working with you, but happy to read the match compiler was
+implemented! I was able to retrieve a copy of an extended abstract we wrote, which was
+recorded as an Internal Technical Memo of Bell Labs (October 1985).  I hope this helps.
+
+Best Regards, Marianne
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Matthias Blume, 2024-04-03
+matthias.blume@gmail.com
+
+
+Hi Dave,
+
+Sorry for the late response...
+
+Here are some of the ways in which I have been involved with the project:
+
+* Compilation Manager (CM)
+
+* revamp of bootstrap compiler and bootstrap process
+
+* lambda-splitting / cross-module inlining
+
+* NLFFI
+
+* some minor hackery to add (very poor) support for 64-bit values (in service of NLFFI)
+
+* generic instrumentation and generation of tail-recursion-preserving stack traces
+
+* various other bits and pieces (For example, I remember fiddling around with ml-yacc at one
+point, making subsequent compilation cheaper and faster by using a custom "cons" that
+takes its arguments in opposite order. There are probably a bunch of other similarly minor
+things that I don't remember right now.) I can't think of any particularly exciting
+anecdotes. But I remember initially stumbling into the world of SML/NJ quite naively. I
+came with a (mostly self-taught) background in implementing Scheme, but Andrew became my
+advisor and Zhong was my office mate, which ended up changing everything. I had many
+debates with Zhong about the relative merits of typed and un(i)typed programming, and over
+time (and with practical experience) I became a convert (including the proverbial "zeal of
+a convert" 😅).
+
+I remember my first visit to Bell Labs. Andrew took me with him on one of his trips to
+meet up with you there. I shook hands with you and I think you gave me a little whiteboard
+lecture on the diamond dependency problem and how the ML module system addresses it. I
+also met Lal there - but it was actually my second encounter with him, since by sheer
+coincidence he had sold his old Z car to another friend and fellow grad student (Stef
+Damianakis) a few weeks earlier, and I was present to help with transportation at that
+time.
+
+And finally, Andrew took me along to get espresso, and when we almost reached the machine
+he waved at the room we were passing through and off-handedly said "This is the Unix
+room". My brain needed a moment to process this... this was not just any room with Unix
+computers - it was THE Unix room. A lot to take in for a guy who was stuck behind the
+Berlin wall just a few years earlier, never imagining ever making it that far...
+
+Oh - here is an anecdote (of sorts) about Andrew and SML/NJ: At some conference (I don't
+remember which and when exactly) I witnessed a conversation between Olivier Danvy and
+Andrew. Olivier was gushing about Andrew's CPS conversion algorithm, asking something like
+"How did you do that? How long did it take you to develop that?" ... to which Andrew's
+response was (in typical Andrew fashion): "Hmm, I don't know... it was the first thing
+that came to mind..."
+
+Anyway,
+I hope all is well!
+
+Best,
+Matthias
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Bruce Duba, 2020-05-18
+bfduba@gmail.com
+
+[DBM, 2020-05-18, re SML history research]
+Hi,
+
+I’ve been doing some further research on your work at Bell Labs. It now looks to me like
+you were at the Labs (or a combination of Bell Labs and Princeton?) around 1988-90. There
+is a Princeton Tech report we co-authored with Andrew Appel dated
+
+@techreport{appel-etal-profiling:88,
+author = {Andrew W. Appel and Bruce F. Duba and David B. MacQueen},
+title = {Profiling in the Presence of Optimization and Garbage Collection},
+institution = princeton-cs,
+address = princeton-cs:addr,
+number = {CS-TR=197-88},
+month = nov,
+year = 1988
+}
+
+And our paper “Typing first-class continuations in ML” with Bob Harper appeared in POPL
+’91, so it was probably submitted during the summer of 1990.
+
+I’ve been looking at various versions of the match compiler code in the archive of
+releases, and it looks like your modifications were probably included between releases
+0.39 (1989-08-22) and 0.44 (1989-11.29). The match compiler in 0.93 (1993-02-15) had been
+rewritten by Bill Aitken, who was a summer intern working with John Reppy probably in the
+summer of 1992.
+
+Dave
+------------
+
+Hello David, 
+
+It's good to hear from you. I was at Bell Labs from the fall of 88 until the fall of 89.
+My daughter, Sophie, was born while we were there (July 15th, 1989). We left for Rice six
+weeks later in our Honda CRX. The thing I was most proud of while working there was adding
+first-class continuations to SML of NJ.
+
+Bruce
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Emden Gansner, 2024-03-29
+erg@emdenrg.net
+
+Hi, Dave,
+
+In hope you are doing well, or as best as can be expected at our age.
+
+* When and where were you involved?
+
+Roughly 1990 to 2005, at Bell Labs and AT&T Labs.
+
+* What did you do, or work on?
+
+I worked on various libraries, in particular, the eXene X windows system toolkit with John
+Reppy, and precursors to the Standard Basis Library, smlnj-lib. I acted as co-editor with
+John Reppy on the SML Standard Basis Library book. I also tried to act as a gadfly to push
+for support for more practical programming features in the SML system, such as interfaces
+for POSIX/Unix, IEEE floating point and graphics.
+
+* Who did you work with?
+
+Mostly with John Reppy, while sitting at the feet of Andrew Appel and Dave MacQueen.
+
+* Are there any relevant writings available? (publications, tech reports or notes, manuals, etc.)
+
+Emden R. Gansner and John Reppy. A multi-threaded higher-order user interface toolkit. In
+L. Bass and P. Dewan, editors, User Interface Software, pages 61–80. Wiley, 1993.
+
+Emden R. Gansner and John Reppy. A foundation for user interface construction. In Brad
+Myers, editor, Languages for Developing User Interfaces, pages 239–260. CRC Press, 1992.
+
+Gansner, E.R. and J.H. Reppy. eXene in 1991 CMU Workshop on SML, 1991.
+
+Emden R. Gansner and John H. Reppy. The Standard ML Basis Library. Cambridge University
+Press, 2004.
+
+
+* Any anecdotes or stories that might be relevant?
+
+I had fun writing an eXene version of the mine sweeper game, where each space is its own
+thread, thus emphasizing how light-weight the threads are. Coming from a math and C
+background, I never got over some of the more "exotic" features of SML, such as
+continuations.
+
+* Anyone I have left off my list of people (see attached file people.txt)?
+
+I don't know if you want to give a nod to Mads Tofte? He seemed to be around a fair
+amount.
+
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Lal George, 2024-03-26
+lalg206@yahoo.com
+
+Dear Dave - couple of messages from you, and I'm consolidating all responses into this
+one. Sorry late reply.
+
+MLRISC bib
+
+The bib file you attached looks quite comprehensive. I've lost all the backups I made of
+MLRISC related documents.
+
+History Capsule
+
+Earlier I'd sent a summary of the history of MLRISC which should serve as a historic
+capsule. No? I've appended that summary to this email for your convenience.
+
+Your email also included work currently being done with LLVM. Thank you for including
+that. Below I'm addressing a comparison of MLRISC with LLVM.
+
+The MLRISC approach/goals and LLVM are very different.
+
+MLRISC had an intermediate representation based on trees (MLTrees). Both MLRISC and LLVM
+address the question of easily generating machine code for any language. There are several
+consequences of the design solution we chose for this over the LLVM approach:
+
+1. MLTrees was intended to be very simple and easy to generate. Unlike LLVM, there is no
+optimization done on MLTrees. All optimization is done on a flow graph of machine
+instructions. MLTrees was just a medium to perform standard instruction selection using
+tree pattern matching, and was then thrown away.
+
+It was the expectation that language specific optimizations would be performed at a higher
+intermediate representation such a CPS or SSA form. The LLVM-SSA IR serves that role in
+LLVM. However, those representations are usually inadequate for performing machine level
+optimizations.
+
+2. We did a small demonstration of the MLTree applicability using the toy language in
+Mr.Appel's compiler book. The end result was a compiler targeting the toy language to all
+back end architectures at the time.
+
+3. SML/NJ imposed some fairly complicated requirements on code generation. For example,
+every function would check GC requirements, and if needed a word in memory held an
+encoding of all the live registers that needed to be traversed. The MLRISC framework was
+able to handle this gracefully, and we felt comfortable about the general applicability to
+other language requirements.
+
+4. All back end optimizations such as register allocation and instruction scheduling were
+machine description driven. Optimization modules were parameterized by machine instruction
+attributes such as def-use, how to spill and reload, etc.
+
+5. The machine description parameterization while fine, is not easily extendable; however,
+using the new Machine-SSA form we were in a position to perform all the standard machine
+level optimizations in the literature, but did not pursue that direction.
+
+Very Truly and Respectfully,
+   Lal George
+
+Resending:MLRISC History:
+
+a) The first thing we did was to port SML/NJ to all the major hardware platforms. SML/NJ
+in its early beginnings ran on the VAX/PDP11 and MIPS (I think) which were the readily
+accessible architectures at the time. The end result was that SML/NJ ran on all the
+popular architectures: x86, Sparc, MIPS, RS6000, among others. [Ironically, the only
+architectures that matter any more are the Intel x86, and the Apple M1/2 chips.]
+
+b) This led naturally to the development of MLRISC - a framework to facilitate back end
+specific optimizations beyond the domain of the CPS intermediate form.
+
+c) Together with Mr. Andrew Appel, MLRISC enabled the development and research of what
+later became a highly influential algorithm for graph coloring register allocation. At one
+time, I had documentation supporting the fact that every compiler in wide circulation at
+the time implemented or had a flag to turn on the algorithm. Every university compiler
+course I came across made mention of the algorithm. The algorithm renewed interest in
+graph coloring and many new competing algorithms, and tied well into the work on
+callee-save registers by Mr.Zhong Shao.
+
+d) Together with Mr. John Reppy, the MLRISC framework allowed us to support instruction
+scheduling and we implemented the algorithm by Mr. Gibbons and Muchnick. This was
+important as architectures did not directly support instruction reordering or speculative
+execution.
+
+e) Unrelated to SML/NJ evolution per-se, and with Mr. Andrew Appel and Mr. Matthias Blume,
+we developed optimal code generation using integer linear programming. To my mind, this is
+the best x86 code generator ever! It was studied by Google and Intel, as even a small
+improvement in compiled code results in large dollar savings.
+
+I later started a company to use this technology targeting network processors. The
+research was initiated with Mr. Matthias Blume. The resulting compiler was very good
+indeed, and had two industrial customers before Intel Corp withdrew the IXP product lien
+from the market.
+
+f) With Mr. Allen Leung, we extended MLRISC to a machine SSA form. The transformation into
+and out of SSA form was demonstrated. There was a huge missed opportunity to extend SML/NJ
+to incorporate specification driven machine SSA level optimizations. Till that time SSA
+conversion was at the level of the language intermediate form.
+
+References
+
+Lal George, Andrew Appel, Iterated Register Coalescing, ACM TOPLAS,
+Vol 18, Issue 3, pg 300-324, https://dl.acm.org/toc/toplas/1996/18/3
+
+Andrew Appel, Lal George, Optimal spilling for CISC machines with few
+registers, PLDI '01, pg 243-253, https://doi.org/10.1145/378795.378854
+
+Lal George, Matthias Blume, Taming the IXP network processor, PLDI
+'03, pg 26-37, https://doi.org/10.1145/781131.781135
+
+Allen Leung, Lal George, Static single assignment form for machine
+code, PLDI'99, pg 204-214, https://doi.org/10.1145/301618.301667
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Bob Harper, 2024-03-02
+rwh@cs.cmu.edu
+Hi Dave,
+
+Some responses for me to your questions, though I think you're pretty clear on these
+things with me, at least. BTW, how are things? How is Karen? And her mom?
+
+I'll confine myself to what I remember about my involvement with SML/NJ, which was minimal
+altogether. Obviously I was part of the overall SML project, and continued to work for
+many years on the type-theoretic semantics of the language, and using that for our own
+compiler. But never mind, this is about SML/NJ, so I'll confine myself to that. Let's not
+rehash things that are in the History paper. It's time to glorify and reminisce about NJ,
+an amazingly influential and long-term project devoted to the language.
+
+How and when? Well, I visited you twice at Bell Labs in 86 and again in 87, two 3-month
+stints during my 85-88 stint as a post-doc in Edinburgh. I shared what I had been doing at
+Edinburgh, playing with a prototype implementation, never fully developed, but which
+helped clarify what The Definition should look like as regards modules. At that point I
+think that NJ was a nascent idea more than a reality as code. I do remember us lamenting
+the shift-reduce conflicts in the syntax that Robin refused to allow to be fixed, alas. In
+retrospect I think he wanted the project to be done and over with asap so that he could
+move on, whereas many of us thought we were just starting.
+
+What? I think I contributed to the theory of continuations as realized in SML/NJ; we wrote
+a paper about it with Bruce Duba. The polymorphic case led to the realization that the
+issue that we experienced with references was not at all about references, but about
+effectful expressions not being substitutable for variables. Robin refused to accept this
+realization, and wouldn't hear of it; I never understood why, except that he wanted to
+shut the door, not hear about issues or extensions, etc. Around this time I wrote a
+three-page paper on safety with references that was eventually published in Information
+Processing Letters, but I sat on it thinking that something must be wrong because Mads and
+Robin took 86 pages in their paper. But then Felleisen and Wright jumped on the same idea,
+and I realized I was right, which led to the IPL paper, but they got there first.
+
+Who? As regards continuations I worked directly with you, and indirectly with Bruce, and
+we wrote a paper about it. I think that's my only actual contribution to NJ, though I
+still use it a lot to this day! As do our undergraduates, year after year for about 30
+years now. We're an SML shop here at CMU, and NJ is our main vehicle.
+
+Writings?  Well, as already mentioned regarding continuations.
+
+Anecdotes? For me the best joke of all was the name of the compiler, which of course I had
+nothing to do with. Over in the UK I had to explain why it was funny and what it meant.
+The best name ever.
+
+People left out? I think maybe Lillibridge was an intern with you at Bell? If so, perhaps
+he worked on NJ? Similarly with Morrisett? Or Tarditi?
+
+Anything else? Undoubtedly, let's see what comes up now that I've started thinking about
+it.
+
+Best,
+Bob
+
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Nevin Heintze, 2024-04-12
+nch@google.com
+
+Hi Dave,
+
+Sorry again for the very slow response.
+
+* When and where were you involved?
+
+I was at CMU from 1987 till 1995, and started working on ML related analysis around 1992.
+I joined your group at Bell Labs in 1995 and was basically there till Agere spun off.
+
+* What did you do, or work on?
+
+To be honest, I didn’t contribute much to SML/NJ directly. I worked on program analysis
+for ML (including some array bounds analysis) and partial evaluation for ML, but none of
+that finished up in SML/NJ.
+
+* Who did you work with?
+
+Within the Bell Labs group, I worked mostly with Jon Riecke (SLam calculus, region
+analysis, dependency calculus), but that’s not SML/NJ related.
+
+* Are there any relevant writings available? (publications, tech reports or notes, manuals, etc.)
+
+Nothing really relevant to SML/NJ. The main ML-related ones were:
+- N. Heintze Set-Based Analysis of ML Programs. LISP and Functional Programming 1994:
+306-317
+- N. Heintze Set-Based Analysis of Arithmetic, 1993, CMU technical report CMU-CS-93-221.
+- K. Malmkjaer, N. Heintze and O. Danvy "ML Partial Evaluation using Set-Based Analysis",
+1994 ML Workshop (also CMU technical report CMU-CS-94-129).
+
+* Any anecdotes or stories that might be relevant?
+
+Nothing specific to SML/NJ. I do remember many fun times with the group at Bell Labs, like
+going to lunch at Oldwick, tubing down the Delaware River, exploring the hidden stairs of
+Bell Labs.
+
+* Anyone I have left off my list of people (see attached file people.txt)?
+
+Not really. Potentially Jon Riecke, Olivier Danvy and Dino Oliva, but none of them
+contributed directly to SML/NJ to my knowledge.
+
+Cheers,
+
+Nevin.
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Jim Hook, 2024-03-30
+
+Hi Dave,
+
+It is wonderful to hear from you!
+
+I'm currently in Changchun, China teaching in one of PSU's joint programs. I'm here for
+about three weeks.
+
+I have been enjoying following Karen and her hiking group on Facebook. 
+
+I was around, as you say, but I was not very engaged in the SML/NJ effort. I'm afraid I
+don't have much to report.
+
+I was at the first meeting of the Standard ML committee at Robin's house, and had attended
+some of the premeetings with you and Luca when Robin came to visit the Labs. But I didn't
+really make any specific contributions to the SML/NJ implementation.
+
+Good luck putting with your project! I am eager to hear how it comes out.
+
+Regards,
+Jim
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Lorenz Huelsbergen, 2024-04-01
+lorenz.huelsbergen@gmail.com
+
+Here's some fodder:
+
+Contributions:
+
+* Contrary to rumor, I did not work on MLRISC. I recall Lal and Andrew working on it.
+
+* SML/NJ-C: Huelsbergen, Lorenz. "A portable C interface for Standard ML of New Jersey."
+(1996).
+
+* Initial port to Windows 93.
+
+* Data Parallel Operators for SML/NJ: Suciu, Dan, and Lorenz Huelsbergen. "A Shared-Memory
+Multiprocessor Implementation of Data-Parallel Operators for ML." (1994).
+
+* Win32 interface to SML/NJ: Liang, Sheng, and Lorenz Huelsbergen. "A Win32 Programming
+Interface for SML/NJ." (1995).
+
+* heap2exec: small utility to take an exported heap and wrap it so that it could be run as
+a binary.
+
+* Maintained the SML/NJ runtime system for a number of years. Fixed one of the most
+pernicious bugs I've ever encountered in the x86 code generator.
+
+* I recall working on the standard library a bit but don't recall what I did exactly.
+
+Recollections
+
+* SML/NJ was used by many researchers for exploring programming languages and other CS
+topics. It was great for prototyping complex things quickly. In my case: parallelization
+and machine learning.
+
+* I recall occasional trips with team members to Princeton and, more rarely, excursions to
+Yale.
+
+* Team lunch trips to Oldwick for burgers and shakes at the [Oldwick] general store.
+
+* MacQueens leading bicycle trips through scenic Hunterdon county - made me move there (here).
+
+* Walks after lunch to "see New York" at the highpoint on the path past the pjw water
+tower behind the labs.
+
+* Everytime I use a channel in Golang today I think about Concurrent SML/NJ.
+
+Hope that helps. Let me know if you have questions. Looking forward to reading a draft. I
+may add some more stuff as I remember it.
+
+Lorenz
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Trevor Jim, 2024-03-20
+tj2586@att.com
+
+Hi, Dave.  I hope the following is useful.
+
+I first worked on the project in the summer after my junior year at Princeton. That would
+have been the summer of 1986. I had already started working with Andrew at Princeton. I
+implemented the pattern match compiler, following the work of Baudinet. I believe SML/NJ
+was not bootstrapped at the time, so we were using the Edinburgh compiler. I was surprised
+to learn from Kevin Mitchell that exhaustiveness checking was NP-complete! This was the
+first time that I ran across an “intractable” problem that is nevertheless completely
+practical; not the last time when working on SML/NJ.
+
+By the way, I don’t think that the compiler had a name at that point. I believe it was the
+following summer (1987) that you came into my office and announced it. At that point I had
+graduated from Princeton and I spent a summer plus a year working at Bell Labs on the
+compiler, before I left for graduate school. I think that you, Andrew, and I were the only
+people working on the project at that time.
+
+One of the first things I did that year was to implement parts of the standard library, in
+particular, the floating point support. This turned out to be a little interesting because
+we supported multiple architectures, some of which did not have floating point hardware —
+I had to code that up myself. On the other hand, the Vax that was our main machine
+supported four different floating point formats. This led to a very interesting bug. Of
+the four formats, I chose to use a relatively obscure one, the “G” format, because it
+closely matched up with the floating point format of the Sparc architecture; it saved me
+from writing another version of the code. However, it turns out that no one else using the
+machine was using the G format. I know this because I found a hardware problem — I
+discovered that a single machine instruction would cause my program to crash: floating
+point addition for the G format. After talking it over with Peter Weinberger, he rebooted
+the machine — a very rare event, that machine was time shared among a couple dozen
+researchers, and it typically ran for months at a time. The reboot fixed the problem.
+Peter explained that the floating point support on the Vax was implemented in microcode,
+and he believed that on the previous boot, a cosmic ray had caused a bit corruption when
+the microcode was loaded. Of course there is no way to be sure, but I later learned that
+this incident inspired Andrew’s paper in which he and a student induced hardware glitches
+by shining a hot light onto a computer’s memory chips.
+
+The rest of my work that year was working with Andrew on the back end of the compiler. (I
+recall you spent much of that time working on the type system.) We wrote the work up in a
+paper, “Continuation-passing, closure-passing style”. As part of that work we implemented
+the first single-pass conversion to continuation-passing style; we didn’t realize that was
+novel, and we didn’t publish it. It was later published by Danvy; I believe that in the
+journal version of his paper he credits us and gives the version of the compiler in which
+it first appeared. I am actually not sure whether this was the invention of Andrew,
+myself, or a combination; it would be interesting to look over the commit messages to see.
+
+By the time I left after summer 1988, the compiler was completely bootstrapped on a couple
+of architectures. I seem to recall that Lal and Bruce were the next people who worked on
+the project, but I’m not sure when they started.
+
+One last anecdote — I remember you and I flying to a conference during this time; we sat
+next to each other on the plane. During the flight, you wrote up a conference submission,
+by hand, in pencil. Your paper was accepted. Those were different times… I must admit,
+your handwriting was quite good.
+
+Thanks for the memories and for the opportunity to work on a seminal project!
+
+-Trevor
+--------------
+[DBM]
+I had forgotten that you did the early match compiler. I had done one in the Lisp port of
+the Hope implementation around 1981 and did that sketchy write-up with Marianne Baudinet
+when she was a summer intern at BL in 1985. Later (1992) John Reppy had a summer intern,
+Bill Aitken, who did a complete rewrite adding fancy features (OR patterns and pattern
+macros), but in a very obscure way. After a couple only partially successful attempts and
+understanding and cleaning up his match compiler, I did a complete rewrite (based
+partially on the SML/NJ 0.33 version, which may date back to you) a couple years ago, and
+that is what is in the compiler now (with OR patterns but not pattern macros).
+--------------
+[Trevor]
+Pattern matching is a killer feature, one of the reasons I fell in love with the language.
+It’s been a long wait for it to make its way into “mainstream” languages but I believe
+it’s now in Rust, Swift, Python… I do a lot of work in Go lately and I miss it. -T
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------ 
+Mark Lillibridge, 2024-04-02
+mdl@alum.mit.edu
+
+Hi Dave.
+
+    I am sending this to people who I believe have been involved with or
+    contributed to the SML/NJ compiler and system (including tools,
+    libraries, important applications). I am writing a (relatively) short
+    and informal history of SML/NJ (the system, not the language), and given
+    the length of time that has passed since this began (Spring 1986) and
+    the falibility and incompleteness of my memory, I am soliciting
+    information from you. I am hoping to complete a first draft before
+    leaving on a trip in mid-April, so your contributions would be most
+    useful if I receive them by the beginning of April.
+
+What comes to mind:
+
+* I was a summer intern at Bell Labs in I think 1994; I worked on the
+ unification of weak type variables I think it was -- x : '1a vs '2a
+ and the like.  I don't remember if I fixed up what was already there
+ or if implemented this from scratch.
+
+* I discovered that call/cc was unsound in ML:
+   Robert Harper and Mark Lillibridge,
+   "ML with callcc is unsound",
+     <"http://www.cis.upenn.edu/~bcpierce/types/archives/1991/msg00034.html">
+   Announcement on TYPES list, July 1991:
+     <"http://lists.seas.upenn.edu/mailman/listinfo/types-list">
+
+* I attended at least one of the ML meetings (at Princeton I believe), but other than
+participating in the discussion I'm not sure there is any particular outcome from there to
+point at.
+
+- Mark
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Allen Leung, 2024-03-08
+allenleungnyc@gmail.com
+
+Comments inlined:
+
+On Sat, Mar 2, 2024 at 3:52 PM David MacQueen <dmacqueen@mac.com> wrote:
+Greetings SML/NJ People!
+
+I am sending this to people who I believe have been involved with or contributed to the
+SML/NJ compiler and system (including tools, libraries, important applications). I am
+writing a (relatively) short and informal history of SML/NJ (the system, not the
+language), and given the length of time that has passed since this began (Spring 1986) and
+the falibility and incompleteness of my memory, I am soliciting information from you. I am
+hoping to complete a first draft before leaving on a trip in mid-April, so your
+contributions would be most useful if I receive them by the beginning of April.
+
+Here is the sort of info that would be useful:
+
+* When and where were you involved?
+
+I was a grad student at NYU, working with Lal (1997) and Nevin and Dino (1998) on
+instruction scheduling/VLIW code generation. Unfortunately, none of these intern projects
+went anywhere. The contribution to SML/NJ turned out to be more long lasting.
+
+* What did you do, or work on? 
+
+For SML/NJ specific work, I primarily worked on the MLRISC backend. I contributed to the
+Sparc, PA-RISC, x86 and MIPS (unsure???) code generators.
+ 
+* Who did you work with?
+
+I primarily worked with Lal George.
+
+* Are there any relevant writings available? (publications, tech reports or notes, manuals, etc.)
+
+I think there were(are?) a few very old Bell Labs tech reports on x86 register allocation
+in MLRISC, but I can't find the original reports from citeseer.
+
+* Any anecdotes or stories that might be relevant?
+ 
+The x86 architecture (ia32) did not have a sufficient number of registers, which made
+graph coloring register allocation difficult. We had to play a few tricks to simulate a
+larger number of registers with some extra scratchpad memory.
+
+I was once stuck debugging a crash in the Sparc generated code for over a week. I went to
+John (Reppy) for help and he found the bug in seconds. Great programmers are at another
+level.
+ 
+* Anyone I have left off my list of people (see attached file people.txt)?
+
+* Anything else I haven't thought of?
+
+Thanks very much for your contributions.  I'm not expecting laborious or time-consuming
+research -- just whatever is easily at hand.
+
+Best regards,
+
+Dave
+--------------
+Hi Dave,
+
+On Fri, Mar 8, 2024 at 3:03 PM David MacQueen <dmacqueen@mac.com> wrote:
+[DBM] Allen,
+
+Thanks very much for this info.  Very useful.
+
+In 1997 (will Lal) and 1998 (with Nevin and Dino), were you working at Bell Labs as an
+intern? I recall you being around, but I can’t recall whether you were actually working at
+the Labs for those periods.
+
+[Allen] Yes, I was an intern.   
+ 
+[DBM] With regards to the tech reports, I have in my archives
+(SML-history/Implementation/SMLNJ/MLRISC at Dropbox) 4 papers (or tech reports) and 2 sets
+of talk slides about MLRISC and global instruction scheduling. Let me know if you would
+like copies.
+ 
+[DBM] We have a development version of SML/NJ (see github.com/smlnj/smlnj) where John has
+replaced the MLRISC code generation for x68-64 with one based on LLVM (embedded inside the
+runtime system, which makes it a couple hundred K lines of C++ code that takes a half hour
+to compile!). This apparently increases the speed of the generated code by 10% to 15%, at
+the cost of 2 orders of magnitude increase in runtime system size and compile time. The
+main point was to get an ARM64 code generator “for free”, but it taking a long time to get
+the ARM64 LLVM code generator to work (2 years so far). So we are keeping the MLRISC
+system in reserve for possible use in an ARM64 port if the LLVM approach doesn’t work out.
+
+[Allen] Thanks for the SMLNJ news. I'm surprised LLVM is that much slower. Perhaps it is
+doing a lot more optimizations compared to MLRISC?
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------ 
+James Mattson, 2024-04-12
+jsmattsonjr@gmail.com
+
+Yes, I wrote ML-Lex as a junior-year project in the spring of 1986. I had used lex in an
+undergraduate compilers class, but I was a functional language neophyte, and it shows. (We
+just called it ML then.)
+
+I recall being somewhat awestruck by the computer that I did the work on: Princeton’s
+Massive Memory Machine, a VAX-11/785 with a whopping 128MiB of physical memory.
+
+I was going to throw this stuff out a few years ago, but my wife made me save it. I
+scanned the write up and the source listings. They are attached.
+
+Thanks,
+
+2 attached documents (in docs directory):
+ml-lex.pdf (ml-lex write-up)
+ml-lex-listings.pdf (ml-lex code)
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Stefan Monnier, 2024-03-02
+monnier@iro.umontreal.ca
+
+Hi Dave,
+
+I am sending this to people who I believe have been involved with or contributed to the
+SML/NJ compiler and system (including tools, libraries, important applications). I am
+writing a (relatively) short and informal history of SML/NJ (the system, not the
+language), and given the length of time that has passed since this began (Spring 1986) and
+the falibility and incompleteness of my memory, I am soliciting information from you. I am
+hoping to complete a first draft before leaving on a trip in mid-April, so your
+contributions would be most useful if I receive them by the beginning of April.
+
+Sounds cool. Having written a HOPL paper on Emacs Lisp, I can see the attractiveness of
+keeping it informal 🙂, but the HOPL process does help produce something significantly
+more valuable, so I can only encourage you to make the effort (tho the next HOPL is still
+quite some years away, I presume).
+
+Here is the sort of info that would be useful:
+
+* When and where were you involved?
+
+Hmm... lessee I started my PhD with Zhong in Sep 1996, IIRC, and I don't think I really
+got started before 2nd year, so I'd say 1997-2002? The beginning was probably not visible
+in the CVS log. And the end was a kind of "long tail" so the cut off is not clear.
+
+* What did you do, or work on?
+
+I worked mostly on moving the "classic" optimizations from the (untyped) CPS language to
+the (typed) A-normal language. I mostly remember fixfix and fcontract. I also added the
+variable which lets one controls/change the order and the repetitions of the various
+phases.
+
+IIRC I also worked on changing the FLINT IL to support multiple return values (that
+happened before the other things I contributed). I remember (re)writing the phase that
+converts the "front-end" output to FLINT IL (i.e. doing the A-normalization), especially
+(re)discovering how to remove administrative redexes :-)
+
+I also worked on adding cross-module inlining.
+
+* Who did you work with?
+
+The cross-module inlining work was done with Matthias Blume, mostly. The addition of
+multiple return values was done working closely with Zhong. The rest of the work was
+mostly on my own (tho of course with a lot of "hotline support" style help from Andrew and
+Zhong).
+
+* Are there any relevant writings available? (publications, tech
+reports or notes, manuals, etc.)
+
+The cross-module inlining is associated with the following two papers:
+
+   Lambda-splitting: a higher-order approach to cross-module optimizations
+   https://doi.org/10.1145/258948.258960
+
+   Inlining as staged computation
+   https://doi.org/10.1017/S0956796802004616
+
+* Any anecdotes or stories that might be relevant?
+
+The installation of my rewrite of the optimizations from CPS to FLINT into the official
+version of SML/NJ was put on hold for more than a year because it caused a bootstrap
+failure (IIRC a "crash" on the second bootstrap, or something like that).
+
+I kept claiming innocence, and after enough finger pointing on all sides, someone (I have
+the vague feeling it was Lal, but maybe it was John) finally found that the origin of the
+problem was a long standing bug in the GC (or rather on the interface between the GC and
+some other part of the backend, I can't remember the details).
+
+* Anyone I have left off my list of people (see attached file people.txt)?
+
+No one else comes to mind, no.
+
+* Anything else I haven't thought of?
+
+Not that I can remember.
+
+>Thanks very much for your contributions.  I'm not expecting laborious
+>or time-consuming research -- just whatever is easily at hand.
+
+I'm looking forward to see the result.
+
+
+       Stefan
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Greg Morrisett, 2024-03-04
+
+Hi Dave,
+ 
+My memory is probably worse than anyone’s but I’ll try with some answers in red below.
+ 
+-Greg
+
+* When and where were you involved?
+
+Summer of 1990 (or 1991)? At Bell Labs: 
+
+* What did you do, or work on?
+
+Worked on building the “fake” structure that was used to elaborate the body of a functor
+and worked on the multi-processor run-time.
+
+* Who did you work with?
+
+For the module stuff, Davd MacQueen and David Tarditi. For the multi-processor stuff,
+Andrew Tolmach.
+
+* Are there any relevant writings available? (publications, tech reports or notes,
+manuals, etc.)
+
+For the multi-processor stuff, this paper. [???]
+
+* Any anecdotes or stories that might be relevant?
+
+I remember using the big SGI multi-processor in the Unix room to develop this and at one
+point, when getting coffee, overhead the Unix guys complaining about how many cycles SML
+was chewing up. They were not too happy! (But the coffee was magnificent.)
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Norman Ramsey, 2024-03-08
+fellswalker@gmail.com
+
+For your SML history:
+
+During academic year 1988-89, at Princeton, I wrote a code generator from the CPS
+intermediate form to MIPS binary code. I worked with Andrew Appel. I'm not aware of any
+relevant writings.
+
+Anecdote: The MIPS instruction set was so regular that I set up a text-based description,
+then used `awk` to generate some of the SML code that went into the code generator. This
+little idea eventually involved into "SLED," the "Specification Language for Encoding and
+Decoding," which was joint work with Mary Fernandez, and which is still used in some odd
+corners of government, primarily for reverse engineering.
+
+Then during the summer of 1996 I visited your group at Bell Labs. My memories of that time
+are hazy, but I believe I altered the lexical-analysis pass so that it recognized formal
+comments to track the original locations of preprocessed code (file, line number, and
+column number). We used that with Noweb, which Matthias Blume had provided CM support for
+by that time.
+
+Norman
+
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------  
+Jon Riecke, 2024-04-14
+jonriecke@gmail.com
+
+Hi Dave,
+
+Yes, it has been a long time! I think the last time I saw you was at your retirement party
+from Chicago. Anne Rogers has kept me updated on your whereabouts; I hope you're enjoying
+living in the Bay Area.
+
+I wish I could say that I had contributed to SML/NJ, but I really didn't. At that time, I
+barely wrote any code. Now I find it to be the most fun part of my job. I work in the
+Google NYC office, on a database for Google Maps, and mostly write in C++. Yeah, I
+know...but it has gotten (slowly) better as it adopted more features from SML.
+
+Have you reached out to Peter Weinberger and Allen Leung yet? They're both at Google NYC.
+Happy to pass along their contact information.
+
+I also want you to know that my years at Bell Labs were some of the best of my career. You
+were incredibly brave to hire someone like me, a theoretician who was at least one step
+removed from the applications of the work. I imagine you had to defend that decision
+multiple times. It gave me an unfettered opportunity to see and work on many kinds of
+problems---something I would not have done as a professor. Your curiosity and enthusiasm
+was infectious, and I still try to follow your example of following the question to where
+it leads. I remain very grateful to you.
+
+-Jon
+------------------------------------------------------------------------------------------  
+
+------------------------------------------------------------------------------------------  
+Bratin Saha, 2024-03-07
+bratinsaha@hotmail.com
+
+Dave - really good to hear from you. Hope you are doing well. Below is the data you were looking for:
+
+
+* When and where were you involved?
+
+I was involved as a graduate student at Yale University from 1996-2002.
+
+* What did you do, or work on?
+
+I was involved in multiple components doing type preserving optimizations and adding
+higher order types into the intermediate language.
+
+* Who did you work with?
+
+I worked primarily with Zhong and other members of the FLINT project. I also worked with
+Nevin and Dino Oliva for control flow analysis.
+
+* Are there any relevant writings available? (publications, tech reports or notes, manuals, etc.)
+
+These are the papers that I co-authored in TIC98, ICFP 2000, PLDI 2021, POPL 2022.
+
+* Any anecdotes or stories that might be relevant?
+
+I think SML/NJ pushed the frontier on type preserving compilation and gave many of us a
+great platform - an industrial quality compilation and runtime system that could be used
+for implementing different ideas. The platform was robust enough that the work could be
+used at industrial scale which made our results realistic. The work enabled by the SML/NJ
+system has helped many other systems like the work that I did subsequently at Intel on the
+Java compiler and multi-core runtime systems.
+
+* Anyone I have left off my list of people (see attached file people.txt)?
+
+* Anything else I haven't thought of?
+
+Thanks,
+Bratin Saha
+Vice President
+AI and Machine Learning Services
+Amazon
+------------------------------------------------------------------------------------------  
+
+------------------------------------------------------------------------------------------   
+Chris Stone, 2024-04-17
+stone@g.hmc.edu
+
+Good to hear from you, Dave!
+
+It would be hard to argue that I had any impact on SML/NJ. As far as I know, our semantic
+work only affected the TILT compiler at CMU, and when I spent a summer at Bell Labs I
+worked on object calculi with Jon Riecke.
+
+I'd be interested in reading your history when it's done, though :)
+
+   Chris
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Olin Shivers, 2024-03-20
+shivers@ccs.neu.edu
+
+Dave-
+
+Here's the story. I got my PhD in May '91. For years, I had deferred my goal of spending
+some time living in the Far East in order to get my degree. But now I was done, so I
+wanted to go live abroad for a year. (As it happened, a year and a half.) In 1991, any
+grad student in Systems or PL was willing to donate a kidney to get an invite to spend
+time at one of two places: Bell Labs (MacQueen's group or the Unix Room crowd), or DEC
+SRC. So I was really thrilled when you were kind enough to give me a place to perch for a
+little while, while I drummed up a job in China. So it was a short-term post-doc sort of
+thing.
+
+I got more out of it than y'all did. It had a huge impact on my life as a PL researcher; I
+was very, very lucky to have that opportunity. I had learned a very little SML while
+wrapping up at CMU. They hadn't started the SML-centered Fox project yet. Harper had just
+joined the faculty. My expertise through the end of my PhD was in dynamically-typed CBV
+lambda-calculus languages and their compilation tech. I'd never done significant
+programming in a Hindley-Milner parametrically polymorphic language. It's an experience
+you have to *have*, before you understand why it matters. I can give a completely
+believable, sensible explanation for why static types are just not *that* useful in
+programming -- a little useful, fine, but not worth the limits (aka, the "straightjacket"
+or the "handcuffs") they place on the programmer. It sounds good and obviously true. Then
+you try it -- you have the experience. And you realise just how enormous an impact rich,
+expressive, implicit types have. I had that experience at Bell Labs.
+
+I spent the Fall of '91 at Murray Hill with your group. So, about 3 months. I learned how
+to make my own espresso. I wrote a few small things in SML as starter projects. A 3D
+graphics system. I wrote an emacs package for interacting with the REPL. A doubly-linked
+list package. (The 'a option ref types needed to build the circular structures were not
+where SML's types shine brightest, I must say. Every time I had to deal with the annoying
+option types, I'd grumble. But it sure was easy to debug the code.) And I wrote that draft
+proposal on putting multi-dimensional arrays into SML.
+
+The array proposal had an agenda driving it. I grew frustrated during even my limited time
+at Bell Labs by the gulf between the Unix Room systems work and the SML work. I saw one of
+the top two systems groups in the world working just down the hall from one of the top two
+PL groups in the world -- superstars everywhere I turned. But no significant interaction.
+I thought that the SML group needed a client, and that the U.R. guys needed to pay
+attention to your group. Had I stayed longer, I'd have pushed for us to go to them and
+say: "We have this complete implementation of a language that is a significant thing. We
+need a client to drive the next round of work. We would like it if you all would consider
+doing your general-purpose programming in our language; then we would sign up to make you
+happy. If there are things about our language that are making it hard to do your job, we'd
+want to discover that and let that drive our work. We understand that device drivers need
+to be written in C -- but the telnet server does not. Nor does cat or ls or the editor or
+the window manager."
+
+I already knew from talking to Tom Duff that he understood what was good about SML and
+what was lacking. He needed unboxed floats and high-performance floating-point
+computation; multi-dimensional arrays with no run-time index checks (one way or another);
+and two more things (I forget the specifics) that SML/NJ did not provide. Great! Let's go
+make him happy. Then we'd have a language that could roll out into the world -- and the
+Bell System -- and conquer all.
+
+My array proposal was a start on coming up with something that a graphics guy like Duff
+could use for his work, but would be clean enough for us to feel was good design. I
+specifically wanted lots of static information about shapes, available to the compiler, so
+we could statically eliminate index checks if you wanted to, say, multiply two 4x4
+matrices representing affine transforms on 3D points, or do a lot of work on a big array
+of 3D points describing some triangularised mesh, or something of that sort. People doing
+compute-intensive stuff needed *some* way of writing inner-loop array code without
+redundant dynamic index checks. We believed in safety. Getting a solution in the
+intersection: that was important.
+
+I put it down when I left to go to Hong Kong in January and never picked it back up. (But
+the itch stayed with me, and here I am, in 2024, working on array-shape type systems in my
+APL follow-on, Remora.)
+
+In your history, you should point out how the Bell Labs group & SML/NJ influenced people,
+as well as the other way around. Greg spent time with you on the way to his PhD. (He did a
+true parallel version of John's CML on your multi-processor MIPS system, which didn't work
+out very well, showing the overhead of the heavyweight CML sync in a parallel setting.
+That influenced a lot of downstream research -- looking for weaker, more lightweight
+models, using static analysis to optimise the sync, etc.) My time with your group had huge
+influence on me and my growth in PL. For over a decade, getting a copy of SML/NJ was, for
+PL researchers, a lot like getting a copy of Unix for systems people in the 70's and early
+80's. I recall Kelsey telling me, in the early 90's, that he'd done a search of abstracts
+at L&FP. In the 80's, almost all of them contained the word "Scheme." In the 90's, almost
+all of them contained the word "SML." That told the story. SML/NJ is why it happened.
+
+Moving forward, I would say -- off the record, please -- that FLINT dealt a real blow to
+SML/NJ. The untyped CPS pre-FLINT form was comprehensible, and Andrew's book served as a
+high-level intro to the compiler. But you had to be a hairy type wizard to deal with
+FLINT. It was much more researchy and nobody outside of Zhong Shao's group could work with
+it. OCaml was thereby enabled; Xavier's efforts here divided the community's efforts into
+two -- and it was *already* a small, ghetto community. Contrast with the lazy-language
+people, who were a much smaller, much scruffier community back then, of wild-eyed true
+believers. They stayed on one language and that worked out really well. Over in SML-land,
+the "Successor ML" project kicked off a lot of discussion, but no consensus and nothing
+solid emerged. Harper and Reppy did real work ("TIL 2" and Moby, respectively), but didn't
+have the critical mass of your group, which was sizeable, everyone a star, all post-PhD,
+and everyone but Appel having full time, every day, all day, to do work. No grant
+proposals, classes, cheating cases, committee work, etc., etc. Your group was a *monster*,
+in terms of focussed productivity. (And how else could SML/NJ have happened? That was
+really the point of Bell Labs.)
+
+SML/NJ demonstrated, with an industrial-strength artifact, that parametric polymorphism
+was good engineering. Not SML. SML/NJ. You could use it. You could make alpha -> beta
+dictionaries and then use them on 20 different alpha/beta combinations. Wow -- the "code
+reuse via polymorphism" benefit is very clear. You could debug your code in the type
+checker -- you could *have the experience* and see its compelling power. It was *the* demo
+that made the case. And here we are: in 2024, it's standard tech, even among people who
+would never consider lambda. You get it in Java, Scala, C++ templates -- it's *common*.
+
+To me, that is good news but also a little sad. I have the experience, myself, of giving
+talks about languages and then during 1-on-1 discussions, discovering that *nobody* want
+my language... but *everyone* wants its parts. And I want to grab people by the collar and
+shake them, then say: "You can't just bolt features onto a language and have a good
+design! The parts have to fit together into a coherent whole. That's not easy. It takes a
+lot of thought. You should look more carefully at the whole artifact."
+
+   -Olin
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Dan Suciu, 2024-03-06
+suciu@cs.washington.edu
+
+Hi Dave,
+
+Thanks for reaching out. First, let me say that it's really great that you plan to write
+this short history. SML of NJ has definitely influenced many people, and I will be
+interested in reading the short history once you write it.
+
+Unfortunately, I haven't kept any records of my work at Bell Labs in 1993(?) with Lorenz.
+That was my first internship as a PhD student, and it did not lead to a publication. The
+best hope is whatever Lorenz has saved, if anything. And, btw, I haven't communicated with
+Lorenz since then, I hope he is doing well. And I hope you are doing well too.
+
+Dan
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------ 
+Walid Taha, 2024-03-13
+maroneal@gmail.com
+
+Hello David!
+
+Great to hear you are well and working on SML/NJ. I often stay with Neal Gafter (of Java
+compiler fame) who lives in Los Gatos when I am come to CA. Do you by any chance know him?
+I am happy to make an introduction if you don’t.
+
+Since four years ago I came back from Sweden after a ten year stint as a full professor.
+It was time for a change so I joined Facebook in Erik Meijer’s org. I have been there for
+most of the last four years. Now I work in Reality Labs, which does the headsets.
+
+Worked with Phil Wadler and yourself on a paper that was called How to Add Laziness with
+Even Being odd. I think it was summer of 98.
+
+It was an amazing time for many reasons. I met you, John, Lal, Ricardo, Andrew Appel,
+Kernighan, Richie, Rabi Sethi, and many other amazing folks. It was a very special time.
+
+Thank you for the outreach and for doing this and look forward to the outcome!
+
+Kind regards,
+
+Walid.
+
+----
+[DBM] When you worked with Phil and me on the lazy evaluation feature for SML/NJ, were you
+working at Bell Labs as an intern that summer? The paper was given at the 1998 ML
+Workshop. I wish I had kept better records (a development diary?) back in the early years
+of SML/NJ development. It’s hard to remember who was working on the system when. Hence my
+researches for this history paper. I’ll use a first draft for Andrew Appel’s Festschrift
+on May 4, then do a second more thorough draft with Andrew’s input afterward. One could
+make a fairly substantial project of it if one were to survey the contents of all the
+SML/NJ-related publications. The paper “The History of Standard ML” that I wrote with Bob
+Harper and John Reppy was fairly light on implementations.
+----
+
+I was indeed a Bell Labs intern at the time, and it was during my PhD studies at OGI.
+
+Let me know if there is any other questions I can answer.
+------------------------------------------------------------------------------------------ 
+
+
+------------------------------------------------------------------------------------------  
+David Tarditi, 2024.04.16
+david.tarditi@ionq.co
+
+Hi David,
+
+I apologize for the delay in responding. I hope you can still use some of my input. Below
+are some thoughts and recollections. I hope I got things right - some of them are from 35
+years ago! I looked briefly and could not find what became of Gene Rollins. However, I am
+connected to his wife Geena Rollins on LinkedIn. I could ask her if she has any
+information on contacting Gene.
+
+David
+
+Recollections of the SML/NJ project
+
+I got involved in the SML/NJ project when I was an undergraduate at Princeton. It was the
+start of my research career in compilers and programming languages. I took the compiler
+course from Andrew and a graduate-level course on programming language semantics. I think
+I went to Andrew as a junior asking him if he knew of any jobs related to compilers. He
+ended up hiring me for a summer job working on a parser generator for the SML/NJ system. I
+remember him telling me that any proper language should have a parser generator. There was
+a TOPLAS paper on a parser generator that generated LALR parsers with automatic error
+correction. When a syntax error was encountered, the parser generator attempted to recover
+from it by making an edit to the token stream and see if parsing succeeded with the edit.
+You could compare the quality of a fix by seeing what produced the longest parser (at
+least in theory).
+
+It was a great usage case for a functional language because it relied on generating
+multiple parse trees and choosing the best one. After choosing a parse tree, you then ran
+the semantic actions. Andrew wanted to use the parser generator for the SML/NJ parser, in
+addition to having a parser generator for SML/NJ. I remember working on this in the summer
+of 1988. I turned down a summer job from Microsoft working on testing Windows 3.1 because
+Andrew’s project seemed much more interesting. I didn’t quite finish the parser generator
+in the summer of 1988. I spent a lot of time using the ML module system to modularize the
+internal design of the parser generator, as well as figuring out how to make use of the
+module system in the generated code. The C version of Yacc just relies on header files,
+and the ML version was considerably more elegant and type safe. I worked in it in the
+summer of 1989 and finished it. I also picked up work on ML-Lex, a lexer generator. Jim
+Mattson had been working on it and he had graduated. think it needed a user manual and the
+generation of the code that incorporated actions.
+
+I went on to graduate school at Carnegie Mellon and became the maintainer of both ML-Yacc
+and ML-Lex. I would field bug reports and answer questions. There were enough that at
+times it became distracting from my research work. This was back before open source became
+a big thing. The manuals for ML-Lex and ML-Yacc are still available online at
+https://www.cs.princeton.edu/~appel/modern/ml/ml-lex/ and
+https://www.smlnj.org/doc/ML-Yacc/
+
+David MacQueen later hired Greg Morrisett and me to work on the implementation of the
+Standard ML module system for one summer at Bell Labs. I was of course very excited to
+work on it since I had used the module system extensively in the ML-Yacc work. David had
+gone through a number of iterations of implementations of the Standard ML module system. I
+remember him telling us not to expect the code to live; we’d try out some ideas but likely
+they would be discarded or changed. At this point, I don’t recall the year. I think it
+would have been the summer of 1991 or 1992.
+
+SML/NJ was hugely influential on the work that we were doing at Carnegie Mellon in the
+early 90s on ways of building more reliable and secure systems. Programming language
+researchers at Carnegie Mellon used SML/NJ in the Fox project, a DARPA-funded project on
+implementing a more secure networking stack using type-safe languages. Peter Lee, Bob
+Harper, and Eric Cooper were the co-PIs. Given all the security problems we see nowadays,
+it was prescient. We got very interested in how to improve the performance of ML, starting
+with SML/NJ as the baseline. I was interested in how to improve the performance of ML
+programs and Greg was interested in how to take advantage of types during compilation.
+This came together in the TIL compiler (typed intermediate language), which was published
+in PLDI 1996. The optimizer in the TIL compiler became the core of my PhD thesis.
+
+Here are some anecdotes from my time working as an undergraduate for Andrew. I remember
+Andrew explaining to me how you do research. You start with a problem that you want to
+solve. It usually turns out to be hard to solve. You take the problem and identify part of
+the problem that you might be able to solve. That problem usually turns out to be hard to
+solve too! You repeat the process. Eventually you get to a problem that you can actually
+solve. You solve it and then start working your back up toward the problem you want to
+solve. By then, you might have found a different problem you want to solve.
+
+At one point, I was working on a bug in ML-Lex. ML-Lex had implemented a forward lookahead
+operator and someone had reported a bug trying to use it. We had used an implementation
+described in the Aho, Sethi, and Ullman’s compiler book (the Dragon Book) for the
+lookahead operator. I looked into the bug and realized that the proposed solution did not
+work. Eventually I went to Andrew and told him that I thought there was a bug in the
+solution in the Dragon Book. I gave him a counterexample to the solution. Of course, It
+took some effort to convince Andrew that there was bug. After I convinced Andrew there was
+a problem. I told him, “We’ll just have to ask the experts.” Andrew looked at me
+quizzically and laughed a little. He said, “David, what experts? We are the experts!” He
+later confirmed with Al Aho that there was indeed a bug in the solution.
+
+------------------------------------------------------------------------------------------   
+
+------------------------------------------------------------------------------------------ 
+Andrew Tolmach, 2024-03-30
+tolmach@pdx.edu
+
+Hi Dave,
+
+Nice to hear from you. Here's what I remember...
+
+I first got involved in the project in 1988, around the start of my second PhD year at
+Princeton, when I became Andrew A's first student. I vaguely remember rewriting one of
+your front-end phases to use more functional style, but almost everything I did was
+connected with the time travel debugger. I had the notion of using source-level
+instrumentation to support debugging, and Andrew contributed the idea of using time travel
+via call/cc. This became the subject of my dissertation (1992). Along the way, I spent a
+couple of summers interning at Bell Labs, including one post-degree where I worked hard to
+get the debugger properly integrated into the upcoming release -- though it sadly
+bit-rotted vey shortly thereafter. Towards the end, I collaborated with Greg Morrisett on
+a multiprocessor SML/NJ; he did the all the RTS work, while I was again mainly interested
+in the user-level model and the debugging aspects.
+
+Meanwhile, of course, there was a ton of working going on in all phases of the compiler.
+Andrew was writing the Green Book, Zhong, Marcelo Goncalves, and Matthias became fellow
+students at Princeton, Lal was a postdoc, and John Reppy was a frequent visitor. I don't
+recall a great deal of nitty-gritty technical interaction with this crew, probably because
+SML/NJ was very well architected, allowing us to beaver away on our own pieces without
+having to know a lot about the others.
+
+A couple random memories (not necessarily for publication):
+
+* Andrew, after getting good performance results from the CPS back-end against the
+competition (PolyML, I think), saying "this is not just amazing. this is FUCKING amazing."
+(He did not swear much.)
+
+* I attempted to get a formal account of the debugger's type reconstruction algorithm into
+my thesis, but it was very heavy going. (In retrospect, the big mistake was trying to use
+the Definition's big-step semantics rather than switching to small-step, but at the time I
+was clueless.) One day, after some repeated pleading on my part, you sat down after lunch
+to help me. You brought out the tools of the trade: a BIG sheet of paper and pencils. Then
+you sat considering awhile...and fell asleep. I hope I wasn't too mean about it; these
+days I am extremely sympathetic to the need for afternoon naps!
+
+Anyhow, thanks for all the support during those years. I hope you and Karen are still
+enjoying life in Los Gatos. I look forward to seeing the history when it is done...
+
+- Andrew T
+
+Bibliography:
+
+@phdthesis{tolmach1992debugging,
+ title={Debugging standard ML},
+ author={Tolmach, Andrew Peter},
+ year={1992},
+ publisher={Princeton University}
+}
+
+@inproceedings{DBLP:conf/lfp/TolmachA90,
+ author       = {Andrew P. Tolmach and
+                 Andrew W. Appel},
+ editor       = {Gilles Kahn},
+ title        = {Debugging Standard {ML} Without Reverse Engineering},
+ booktitle    = {Proceedings of the 1990 {ACM} Conference on {LISP} and Functional
+                 Programming, {LFP} 1990, Nice, France, 27-29 June 1990},
+ pages        = {1--12},
+ publisher    = {{ACM}},
+ year         = {1990},
+ url          = {https://doi.org/10.1145/91556.91564},
+ doi          = {10.1145/91556.91564},
+ timestamp    = {Fri, 06 Aug 2021 15:08:55 +0200},
+ biburl       = {https://dblp.org/rec/conf/lfp/TolmachA90.bib},
+ bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/pdd/TolmachA91,
+ author       = {Andrew P. Tolmach and
+                 Andrew W. Appel},
+ editor       = {Barton P. Miller and
+                 Charles E. McDowell},
+ title        = {Debuggable Concurrency Extensions for Standard {ML}},
+ booktitle    = {Proceedings of the {ACM/ONR} Workshop on Parallel and Distributed
+                 Debugging, Santa Cruz, California, USA, May 20-21, 1991},
+ pages        = {120--131},
+ publisher    = {{ACM}},
+ year         = {1991},
+ url          = {https://doi.org/10.1145/122759.122770},
+ doi          = {10.1145/122759.122770},
+ timestamp    = {Thu, 14 Oct 2021 10:41:37 +0200},
+ biburl       = {https://dblp.org/rec/conf/pdd/TolmachA91.bib},
+ bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ppopp/MorrisettT93,
+ author       = {J. Gregory Morrisett and
+                 Andrew P. Tolmach},
+ editor       = {Marina C. Chen and
+                 Robert Halstead},
+ title        = {Procs and Locks: {A} Portable Multiprocessing Platform for Standard
+                 {ML} of New Jersey},
+ booktitle    = {Proceedings of the Fourth {ACM} {SIGPLAN} Symposium on Principles
+                 {\&} Practice of Parallel Programming (PPOPP), San Diego, California,
+                 USA, May 19-22, 1993},
+ pages        = {198--207},
+ publisher    = {{ACM}},
+ year         = {1993},
+ url          = {https://doi.org/10.1145/155332.155353},
+ doi          = {10.1145/155332.155353},
+ timestamp    = {Sun, 12 Jun 2022 19:46:08 +0200},
+ biburl       = {https://dblp.org/rec/conf/ppopp/MorrisettT93.bib},
+ bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/jfp/TolmachA95,
+ author       = {Andrew P. Tolmach and
+                 Andrew W. Appel},
+ title        = {A Debugger for Standard {ML}},
+ journal      = {J. Funct. Program.},
+ volume       = {5},
+ number       = {2},
+ pages        = {155--200},
+ year         = {1995},
+ url          = {https://doi.org/10.1017/S0956796800001313},
+ doi          = {10.1017/S0956796800001313},
+ timestamp    = {Mon, 15 Jun 2020 16:56:42 +0200},
+ biburl       = {https://dblp.org/rec/journals/jfp/TolmachA95.bib},
+ bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+--------------
+
+[DBM]
+Hi Andrew!
+
+Thanks so much for all this info. It will help me piece together the time line and what
+was happening and who was doing what. I forgot all about Marcelo Goncalves! Have to add
+him to the SML/NJ people list and see if it is possible to contact him. Do you have any
+recollection of what he was doing (related to SML/NJ).
+
+[Tolmach]
+I remembered him working on a hash-consing back-end, but it seems his dissertation was on
+other aspects of GC: https://www.cs.princeton.edu/research/techreps/TR-492-95
+------------------------------------------------------------------------------------------ 
+
+------------------------------------------------------------------------------------------   
+Howard Trickey, 2024-04-14
+howard.trickey@gmail.com
+
+Hi David,
+
+I did not contribute to SML/NJ. I was around (I joined Bell Labs in 1985) and I, along
+with Tim Griffin, used SML/NJ in a fairly major way: we wrote a system that did weakest
+preconditions on database transactions for AT&T/Lucent switches (this was probably in the
+late 80s / early 90s). It was about 20,000 lines of SML. We may have had some
+conversations with you about the module system, and perhaps about the compiler speed, but
+I don't think those conversations led to any particular changes or improvements to SML.
+
+So probably not useful to have me on the list of SML/NJ people; but I will be very
+interested in seeing the final result!
+------------------------------------------------------------------------------------------   
+
+------------------------------------------------------------------------------------------   
+Dan Wang, 2024-03-09
+danwang74@gmail.com
+
+* I started using SML/NJ as at CMU as part of the Fox Project in 1993 with Peter Lee and Bob
+Harper
+
+* Johny Reppy can maybe confirm but I did an internship at Bell Labs in 1994 and worked on
+the ML-DOC tool used to convert the sgml used for the Standard ML basis.
+
+* In 1997 at Princeton with Andrew Appel I released ASDL and ASDLGen Abstract - DSL 97
+(usenix.org) Note Python is using the ASDL language but not the ASDLGen tool
+(See https://stackoverflow.com/questions/8873126/zephyr-asdl-abstract-syntax-description-language)
+
+* I think I was fixing some pretty pritting bug in the SML.NJ runtime and that lead to my
+PhD thesis, which was done using MLton
+
+* I was doing a post-doc at Princeton for the foundational proof carrying code that used
+Twelf which was written in SML./NJ.
+
+* I think I was generally more of a user of the compiler and language than a contributor.
+------------------------------------------------------------------------------------------   
+
+------------------------------------------------------------------------------------------    
+Peter Weinberger, 2024-04-14
+pjw@google.com
+
+How nice to hear from you. I don't remember a lot, but I do remember writing the first
+garbage collector.
+
+I hardly ever get to the Bay Area anymore, but I'll try to remember you're there if I do.
+(I'm also at peter.weinberger@gmail.com, in case this Google thing falls apart)
+
+I'm working on Go.
+----
+I think (but am not sure) that it was a two space copying
+collector, because that's about the simplest possible one.
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Timothy Griffin <timothy.g.griffin@gmail.com>
+2024.09.02
+
+Hi Dave, 
+
+Yes, I'm very happy that Labour won and the bloody Tories have been booted out at last. 
+Now the hard part really begins! 
+
+I'm afraid my recollections of my Pdiff work might be a bit contrarian. I could write at
+length about it, but I'll just briefly summarize here. 
+
+I was really inspired by the approach taken by Bjarne Stroustrop in his development of
+C++.  Not in the language itself, but in the way he took advantage of being at Bell Labs
+to build a solid user base for the language.   Languages are tools, and there is no better
+way to develop a tool than to have users.  There were a lot of business units doing coding
+that didn't require low-level systems programming and so were perfect for building an SML
+user base.  Pdiff was one example of this.  However, I don't think the SML group at Bell
+Labs wanted users. It was more interested in POPL papers that developing a user group.  To
+me, this was a lost opportunity and resulted in my leaving the department in frustration. 
+
+I became interested in the related database research itself, and I went off on a database
+tangent for a few years.  One of the things I then realized was that the entire Pdiff
+project was itself build around a *very bad* idea.  The software engineering group at
+Indian Hill had this idea of visiting business units, study what they were doing,  and
+then inventing domain-specific languages (DSL) to automate the business processes.  The
+problem with this approach is that it did not question the sanity of those processes.  If
+you implement a DSL to automate a bad business process then you have made that mistake
+HARDER to fix. You have poured concrete around a bad design.  That's what they did with
+PRL (I think that was the name of the language for specifying database constraints.)  The
+problem was that they where writing constraints on a denormalized on-switch database. They
+should have re-designed the entire system so that normalized tables were on network
+management platforms that then pumped denomalized materialized views onto the switches. 
+Constraints then only need to be checked on the normalized database, and this would be
+orders of magnitude simpler, with most of the constraints handled by build-in constraint
+checking available on any decent commercial database system (assuming a well-designed
+normalized schema). Rick Hull and I wrote some papers about this. Too late for the 5ESS,
+but I heard that sometime later optical switch projects adopted our design.
+
+Finally, this work did lead me to the problem of managing configurations of Internet
+networks, and that's where my own research really took off,  so no regrets in the end.
+
+Finally, I would like to thank you for hiring me at Bell Labs. I wouldn't be a professor
+at Cambridge today had you not hired me! I really do appreciate it. I'm sorry that my
+stubbornness made me a difficult person at times.
+
+Best,
+Tim
+------------------------------------------------------------------------------------------

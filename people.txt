@@ -1,0 +1,191 @@
+People involved in SML/NJ
+[** marks those who have responded so far]
+
+Core
+----
+
+Andrew Appel [CMU, Princeton]
+  appel@princeton.edu
+
+** David MacQueen [MIT, Edinburgh, ISI, Bell Labs, UChicago]
+  dmacqueen@mac.com
+
+John Reppy [Cornell, Bell Labs, UChicago]
+  jhr@cs.uchicago.edu
+
+Zhong Shao [Princeton (Appel), Yale; FLINT, ...]
+  shao@cs.yale.edu
+
+** Matthias Blume [Princeton, Kyoto, Bell Labs, TTI, Google; CM, ...]
+  matthias.blume@gmail.com
+  blume@google.com
+
+** Emden Gansner [Bell Labs; Basis library, smlnj-lib?]
+  erg@emdenrg.net
+
+** Lal George [Bell Labs; MLRISC, ...]
+  lalg206@yahoo.com
+
+
+Bell Labs
+---------
+
+** Marianne Baudinet [Bell Labs, Summer 1985?; match compilation algorithm with DBM]
+  via LinkedIn: linkedin.com/in/mbaudinet
+
+** Bruce Duba [Bell Labs; match compiler, continuations?]
+  bfduba@gmail.com [email from LinkedIn account contact]
+
+** Lorenz Huelsbergen [Wisconsin (Jim Larus), Bell Labs; C interface, heap2exec, ...]
+  linkedin.com/in/lorenz-huelsbergen
+  https://9p.io/who/lorenz/index.html (see bib link)
+  lorenz.huelsbergen@gmail.com
+
+** Allen Leung [NYU, Bell Labs (summers 1997, 1998) ..., Google; MLRISC (mainly with Lal)]
+  allenktleung@google.com [LinkedIn profile: linkedin.com/in/allen-leung-9585635b]
+  allenleungnyc@gmail.com
+
+Dino Oliva [Bell Labs (199x-?); code generation? with Allen, Lal, Nevin?]
+  dinooliva@proton.me
+
+Riccardo Pucella [Bell Labs (1996-1999, Reppy), Cornell; "Notes on Programming in SML/NJ"]
+  riccardo.pucella@gmail.com
+
+** Dan Suciu [Bell Labs (summer 1993?, worked with Hueslbergen), Penn, ..., Washington;
+  data parallel operators],
+  suciu@cs.washington.edu
+
+Laurent Th\'ery [BL visitor, INRIA Sophia Antipolis (Centaur?); worked
+  with DBM on tracking potential type error culprits]
+  Laurent.Thery@inria.fr
+
+** Olin Shivers [Yale (PhD), Bell Labs (Fall 1991),..., Northeastern; multidim array proposal, ... ]
+  shivers@ccs.neu.edu
+
+Elsa Gunter [Bell Labs, Illinois; continuations?]
+  egunter@illinois.edu
+
+Carl Gunter [Penn, Bell Labs, Illinois; ?, continuations]
+  cgunter@illinois.edu
+
+William Aitken [..., Bell Labs (summer intern, 1992, Reppy); match compiler rewrite, OR patterns]
+  linkedin.com/in/william-aitken-383204114 [LinkedIn message 2024.03.21]
+
+** Walid Taha [Bell Labs(summer intern  1998); lazy evaluation with Wadler, DBM]
+  maroneal@gmail.com
+
+** Peter Weinberger [Bell Labs, Renaisance, Google; ?]
+  pjw@google.com
+
+** Howard Trickey [Bell Labs, Google; ?]
+  howard.trickey@gmail.com
+
+Phil Wadler [..., Bell Labs, ..., Edinburgh; lazy evaluation]
+
+Tim Griffin [..., Bell Labs, ..., Cambridge;
+  with H. Trickey, weakest preconditions on switch database transactions]
+
+
+Princeton
+---------
+
+** Trevor Jim [Princeton (Appel undergrad student), Bell Labs (1 year), MIT (PhD Albert
+  Meyer); ...]
+  trevorjim.com [no LinkedIn]
+  tjim@mac.com
+
+** Norman Ramsey [Princeton, Bell Labs (1996), Tufts; MIPS code generator (@Princeton),
+   #line in lexer and Noweb (@BL)]
+  norman.ramsey@tufts.edu
+
+** David Tarditi [Princeton (undergrad), CMU, IonQ; ml-lex?, ml-yacc]
+  [LinkedIn account: linkedin.com/in/david-tarditi]
+  david.tarditi@ionq.co [dtarditi@msn.com ?]
+
+** Andrew Tolmach [Princeton, Appel student (PhD 1994); time-travel debugger]
+  tolmach@pdx.edu
+
+** Dan Wang [Princeton; ASDL]
+  danwang74@gmail.com [from LinkedIn profile linkedin.com/in/daniel-wang-94b75a67]
+
+Marcelo Goncalves [Princeton (Andrew Student, PhD 1995); hash-consing GC,
+                   Thesis: "Cache Performance of Programs with Intensive
+                   Heap Allocation and Generational Garbage Collection")]
+ contact?
+
+** James S. Mattson [Princeton; ml-lex]
+  jsmattsonjr@gmail.com
+
+
+FLINT
+-----
+
+Chris League [Yale, FLINT, Shao student;]
+  league@contrapunctus.net
+
+** Stephan Monnier [Yale, FLINT, Shao student;]
+  monnier@iro.umontreal.ca
+
+** Bratin Saha [Yale, FLINT, Shao student;]
+  bratinsaha@hotmail.com [from LinkedIn: linkedin.com/in/bratin-saha-05824b3]
+
+Valery Trifonov [Yale (FLINT postdoc), Johns Hopkins, ... (Goldman Sachs); ...]
+  <no email> (asked Zhong)
+
+
+CMU
+---
+
+** Robert Harper [Edinburgh, CMU, Bell Labs (x2); SML design, Edinburgh SML, semantics of SML,
+   Foxnet, advisor: Christopher Stone, Mark Lillibridge, Nevin
+   Heintze?, Derek Dreyer, ...]
+  rwh@cs.cmu.edu
+
+** Nevin Heintze [CMU, Bell Labs, Google; static analsys for bounds checking, C type inference]
+  nch@google.com
+  linkedin.com/in/nevin-heintze-87544b5
+
+Peter Lee [CMU, Microsoft; Foxnet]
+  peter-lee@outlook.com [linkedin.com/in/peterlee4]
+
+** Mark Lillibridge [CMU (Harper), Bell Labs?; ...]
+  mdl@cs.cmu.edu
+  hpl.hp.com/personal/Mark_Lillibridge
+
+** Greg Morrisett [CMU, Bell Labs (summer intern, 1995/6?); modules, multi-processing]
+  greg.morrisett@cornell.edu
+
+George Necula [CMU, Bell Labs (Summer, 1994), ..., Berkeley; worked with Lal on ?]
+  necula@cs.berkeley.edu
+  gcnecula@gmail.com
+  https://people.eecs.berkeley.edu/~necula/
+
+Gene [Geena] Rollins [CMU, ?; Source Groups - precursor of CM]
+  [now her, Geena Rollins, invited to connect on LinkedIn]
+  email? (Taditi?)
+
+
+Chicago
+-------
+
+Aaron Turon [UChicago; ml-ltp]
+
+Michael Rainey [UChicago; ?]
+
+
+Others?
+------
+
+** Jim Hook? [Cornell, Edinburgh; SML design, pre-SML/NJ, ...]
+
+** Jon Riecke [Williams, MIT, Bell Labs, Google; semantics, FP-related theory, ML2K]
+  jon.riecke@gmail.com
+
+** Christorpher Stone [CMU (Harper), Harvey Mudd; ...]
+  stone@cs.hmc.edu
+
+Jeanette Wing [CMU, Microsoft, Columbia; ...]
+  wing@columbia.edu
+
+Mads Tofte [Edinburgh, ITU; semantics of higher-order functors (w. DBM)]
+

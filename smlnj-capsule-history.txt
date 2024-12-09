@@ -1,0 +1,136 @@
+smlnj-capsule-hist.txt
+DBM
+
+This document contains a short (capsule or outline of) history of the SML/NJ system.
+
+I have a list of 50 people who I believe made contributions to the system over the years.
+From institutions including Bell Labs, Princeton, CMU, Yale, Cornell, Kyoto, Chicago.
+Short notes on their contributions have been received from many of these people.
+
+
+* Birth (1986 - 1987)
+
+  - Informal design of (Standard) ML was finished by the end of 1985 (LFCS tech report)
+
+  - Andrew Appel started as a new Assistant Professor at Princeton in early 1986
+
+  - Andrew and I discussed implementing SML, and decided to start sometime in March 1986.
+
+  - We decided to use the prototypish Edinburgh SML implementation as the initial development
+    platform until we could bootstrap. It had a prototype implementation of the module system
+    by Bob Harper.  Edinburgh SML was a derivative of Edinburgh ML, which was a self-bootstrapping
+    implementation of Cardelli ML in Cardelli ML (original Cardelli ML compiler was written in
+    Pascal).
+
+  - I wrote a lexer and recursive descent parser for the front end and worked on an
+    "elaboration" or "static analysis" phase that would produce a typed abstract syntax.
+    Later on, the 
+
+  - MLlex (1986) and MLyacc (1986?) tools were developed by Princeton undergraduate students
+    James Mattson and David Tarditi, respectively. My initial lexer and parser were replaced
+    by ones generated from specifications by these tools.
+
+  - Andrew began work on lambda/cps middle end, code generator, and runtime system.
+    (more detail needed from Andrew)
+
+  - A more adequate initial library (& built-in pervasive invironment) was designed
+    and implemented.
+
+  - Edinburgh SML was not very robust, and we just made it to the point where SML/NJ could
+    bootstrap itself before it colapsed. Bootstrapping occurred around May-June 1987 while
+    I was away on a 4-month visit to Edinburgh (working on the beginnings of the formal
+    definition, I believe).
+
+  - At some point we decided on "Standard ML of New Jersey" as the name of the system. This
+    name was a kind of pun on the name "Standard Oil of New Jersey" for the oil company that
+    eventually became Exxon.
+
+  - Versions were called mlsave.1, mlsave.2, and so on. These were created when we made a copy
+    (snapshot) of the code on 9-track mag tape for transmitting the code back and forth between
+    Bell Labs and Princeton.  Much of the programming was done as "pair programming" with Andrew
+    and I sitting together at a terminal at Bell Labs during his more or less weekly visits as
+    a consultant.
+
+  - External distribution was done by making a 9-track tape and mailing it to colleagues at,
+    for example, Carnegie Mellon and Cornell. I think that the first "version" sent out was
+    mlsave.22 toward the end of 1987, probably to around 10 institutions.
+
+  - At Bell Labs, I worked on a Sun workstation with a Motorola 68040 32-bit processor, while
+    at Princeton, Andrew worked on a DEC Vax computer running Unix [check]. So Andrew wrote
+    two code generators, for the Vax and the 68000 architectures. This meant that the binaries
+    for the versions and distributions had two flavors, vax and 68000.
+
+
+* Youth (1987 - 2000)
+
+  - For quite a while the "release" cadence was roughly every eleventh internal verison, so
+    mlsave.22, mlsave.33, mldist.44, mldist 55. Somewhere around version 40, the name of
+    the internal versions changed from "mlsave.nn" to "mldist.nn", and the distributede versions
+    were known as, e.g., "0.33".
+   
+  - At CMU, ? produced a version of the compiler called ML-C (?) that generated C code,
+    based on the 0.75 release/distribution.
+
+  - John Reppy, at Cornell, contributed the first code generator for a RISC architecture, the
+    SUN Sparc.  This was around 1992.
+
+  - 0.93 included a complete rewrite (the third?) of the module system (elaboration phase)
+    Support for higher-order functors (or structures containing functor components) was added.
+    This was the first significant departure from the Definition of 1990.
+
+  - Gene Rollins at CMU developed a _build tool_ called "Source Groups". This formed the basis
+    for a "compilation manager", CM, that was written by Matthias Blume later in the 1990 and
+    redesigned and implemented around 1999-2000 at Kyoto University in Japan. CM became an
+    integral part of the compiler.
+
+  - Andrew's student Zhong Shoa started the FLINT project at Yale after joining the faculty there.
+    The FLINT project used typed F_omega as an intermediate representation for type-preserving
+    optimizations, partially replacing Andrew's untyped CPS middle-end.
+
+  - Following Reppy's code generator for the Sparc, code generators were developed at Bell Labs
+    for other RISC architectures: MIPS, HPPA, IBM RS6000?, HP-PA, DEC Alpha, and
+    (IBM-Motorola-Apple) PowerPC.  Several of these used a code-generataor framework called
+    MLRISC, developed by Lal George and Allen Leung in the 1990s.
+
+  - An x86-32 code generator was produced (who, where?, some history behind this).
+    (Critical when Apple moved to x86 processors, but we have never been strong in Windows
+    systems technology.)
+
+  - SML '97 language revision was done by Milner, Tofte, Harper, MacQueen in the 1995-96 period.
+    Corresponding changes were made by MacQueen to the language implemented by SML/NJ, with
+    some minor discrepancies.
+
+  - ML2000 discussions in the 1990s had no direct affect on SML/NJ, but they did affect the
+    SML '97 langauge revision, and so had an indirect effect. No object-oriented features were
+    introduced into SML (or SML/NJ).
+
+
+* Maturity (post 2000)
+
+  - Andrew Appel stopped working on SML/NJ around 1995, when he moved on to research on
+    verification of systems code.
+
+  - Most of the Bell Labs "team" who were contributing to SML/NJ left in the 2001-2002 period 
+    after the spin-off of Lucent from AT&T (MacQueen, Reppy -> UChicago, some to Google).
+  
+  - The Basis Library (Reppy and Gansner), which was part of the SML '97 language revision,
+    was completed and the Basis Library manual was published by MIT Press in 2003.
+
+  - Some work continued at Chicago. But the system was mainly in maitenance mode.
+
+  - Successor ML became the name of a future SML dialect with mainly "micro-design"
+    proposals. See the github.com/smlfamily/successorml repository.
+    
+  - Forced by Apple's Catalina version of macOS (macOS 10.15), SML/NJ was converted from
+    a 32-bit to a 64-bit compiler (mainly John Reppy's work).
+
+  - Gradual, background "cleanups" of the code of compiler components,
+    libraries and tools, such as the match compiler, FLINT. Still lots
+    of ancient, orphaned code to deal with.
+
+  - Currently we are in the middle of moving to LLVM-based code generator (built into the
+    runtime system) to gain support for the ARM64 architecture (and thus Apple Silicon). 
+    Whether we will meet the technology challenge posed by Apple's move to ARM is still
+    up in the air. (And following that, there is the question of RISC V code generation.)
+
+    

@@ -1,0 +1,6 @@
+Marianne Baudinet  5:51 AM
+
+Hi Dave,
+Nice to hear from you. I hope you are doing well. Indeed, I had visiting research internship at Bell Labs in the summer of 1985 and we worked on tree pattern matching for ML. And yes, I was a PhD student at Stanford where I worked with Zohar Manna and got my degree in early 1989 with a thesis on semantics and verification techniques for logic programming. I can't remember what I developed while working with you, but happy to read the match compiler was implemented! I was able to retrieve a copy of an extended abstract we wrote, which was recorded as an Internal Technical Memo of Bell Labs (October 1985).  I hope this helps.
+
+Best Regards, Marianne

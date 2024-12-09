@@ -1,0 +1,26 @@
+Greetings SML/NJ People!
+
+I am sending this to people who I believe have been involved with or contributed to the SML/NJ compiler and system (including tools, libraries, important applications). I am writing a (relatively) short and informal history of SML/NJ (the system, not the language), and given the length of time that has passed since this began (Spring 1986) and the falibility and incompleteness of my memory, I am soliciting information from you. I am hoping to complete a first draft before leaving on a trip in mid-April, so your contributions would be most useful if I receive them by the beginning of April.
+
+Here is the sort of info that would be useful:
+
+* When and where were you involved?
+
+* What did you do, or work on?
+
+* Who did you work with?
+
+* Are there any relevant writings available? (publications, tech reports or notes, manuals, etc.)
+
+* Any anecdotes or stories that might be relevant?
+
+* Anyone I have left off my list of people (see attached file people.txt)?
+
+* Anything else I haven't thought of?
+
+Thanks very much for your contributions.  I'm not expecting laborious or time-consuming
+research -- just whatever is easily at hand.
+
+Best regards,
+
+Dave

@@ -1,0 +1,4 @@
+Notes on History of SML/NJ
+
+* techstaff member hired under the NSF Infrastructure Grant was Virgil Gheorghiu, who later went to Apple in Cupertino (living in Campbell?)
+
